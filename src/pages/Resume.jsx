@@ -6,6 +6,7 @@ import { faPuzzlePiece } from "@fortawesome/free-solid-svg-icons";
 function Resume() {
   return (
     <div className="resume-page">
+      <a name="myResume" />
       <h1 className="header-font">My Resume</h1>
       <div className="resume">
         <div className="space-area">

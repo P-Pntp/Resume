@@ -1,27 +1,27 @@
-import { Link } from "react-router-dom";
-
 function Navbar() {
   return (
     <nav className="navbar">
-      <div class="navbar-name">PANTIPA'S RESUME</div>
+      <a href="#header" class="navbar-name">
+        PANTIPA'S RESUME
+      </a>
       <div class="navbar-link-container">
         <span>
-          <a href="" class="navbar-link">
+          <a href="#aboutMe" class="navbar-link">
             About Me
           </a>
         </span>
         <span>
-          <a href="" class="navbar-link">
+          <a href="#myResume" class="navbar-link">
             My Resume
           </a>
         </span>
         <span>
-          <a href="" class="navbar-link">
+          <a href="#additional" class="navbar-link">
             Additional
           </a>
         </span>
         <span>
-          <a href="" class="navbar-link">
+          <a href="#contactMe" class="navbar-link">
             Contact Me
           </a>
         </span>

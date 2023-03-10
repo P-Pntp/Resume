@@ -6,6 +6,7 @@ import { faMapLocation } from "@fortawesome/free-solid-svg-icons";
 function ContactMe() {
   return (
     <div className="contact-me-page">
+      <a name="contactMe" />
       <h1 className="header-font">Contact Me</h1>
       <div className="contact-me">
         <div className="space-area">

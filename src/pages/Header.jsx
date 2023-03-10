@@ -3,6 +3,7 @@ import profileImg from "./image/profilePicture.png";
 function Header() {
   return (
     <div className="header-page">
+      <a name="header" />
       <div className="header-container">
         <div>
           <img
@@ -23,7 +24,7 @@ function Header() {
             </div>
             <div className="description-item">
               <p>
-                <span className="sub-topic-font">Dath of birth</span>
+                <span className="sub-topic-font">Date of birth</span>
                 <br />
                 28-10-1993
               </p>
@@ -36,6 +37,7 @@ function Header() {
           </p>
         </div>
       </div>
+      <a name="aboutMe" />
       <h1 className="header-font">About Me</h1>
       <div className="about-me-container">
         <div className="space-area"></div>

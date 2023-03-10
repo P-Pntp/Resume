@@ -1,6 +1,7 @@
 function Additional() {
   return (
     <div className="additional-page">
+      <a name="additional" />
       <h1 className="header-font">Additional</h1>
       <h1 className="topic-font-grey">Additional passions</h1>
       <div className="item-row">
